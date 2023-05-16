@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="./proyecto1/style.css">
+    <title>music player</title>
+</head>
+<body>
+    <!-- PLAYER -->
+    <main class="player">
+        <!-- TITLE -->
+        <h1 class="title" id="title">New song</h1>
+
+        <!-- COVER -->
+        <img src="" class="cover" id="cover">
+
+        <!-- AUDIO HTML MEIDA ELEMENT-->
+        <audio src="" id="audio"></audio>
+
+        <!-- PROGRESS BAR -->
+        <div id="progress_container" class="progress-container">
+            <section id="progress" class="progress"></section>
+        </div>
+
+        <!-- CONTROLS -->
+        <section class="controls">
+            <button class="">
+                <i class="fa fa-backward" id="prev"></i>
+            </button>
+            <button class="play">
+                <i class="fas fa-play" id="play"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-forward" id="next"></i>
+            </button>
+        </section>
+
+        <!-- Songs list -->
+        <ul class="songs" id="songs">
+            <!-- <li>
+                <a href="">Song-1</a>
+            </li>
+            <li>
+                <a class="activo" href="">Song-2</a>
+            </li> -->
+        </ul>
+
+    </main>
+
+    <script src="./proyecto1/main.js"></script>
+</body>
+</html>
